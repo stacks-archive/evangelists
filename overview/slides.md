@@ -1,7 +1,7 @@
 
 <section data-background="white">
 ![BlockStack](https://media.githubusercontent.com/media/blockstack/designs/master/logo/external/RGB/logo/blockstack-logo-vertical-bug%402x.png)
-###### @dantrevino
+###### @blockstackorg
 
 ---
 
