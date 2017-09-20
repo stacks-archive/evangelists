@@ -1,7 +1,7 @@
 
 <section data-background="white">
 ![BlockStack](https://media.githubusercontent.com/media/blockstack/designs/master/logo/external/RGB/logo/blockstack-logo-vertical-bug%402x.png)
-###### @blockstackorg
+###### Jack Zampolin - Engineering Partner
 
 ---
 
@@ -23,7 +23,7 @@ Note:
 <img src="https://blockstack.org/images/visuals/blockstack-architecture-diagram.svg" width="500">
 
 Note:
-1) Lowest layer is the blockchain where which Blockstack uses to bootstrap trust in the network. Currently we run on BTC, but because of the implementation Blockstack can easily move to other blockchains. This is our Virtualchain technology.
+1) Lowest layer is the blockchain which Blockstack uses to bootstrap trust in the network. Currently we run on BTC, but because of the implementation Blockstack can easily move to other blockchains. This is because of our Virtualchain technology.
 
 2) With the Virtualchain we have built the Blockstack Naming system which is functionally similar to DNS
 
@@ -52,16 +52,16 @@ Note:
   c) As long as the peer network graph is connected (doesn't matter how), every peer will eventually get 100% of the zone files.  
 
 2) Identity (Blockchain ID)
-  
-  a) Based on the Blockstack Naming System, users peg their identities to domains e.g. `jackzampolin.id`. 
+
+  a) Based on the Blockstack Naming System, users peg their identities to domains e.g. `jackzampolin.id`.
 
 3) Storage (Gaia)
-  
+
   a) Turns existing storage providers into dumb datastores (privacy, encryption)
-  
-  b) Uses familiar filesystem concepts such as getFile, putFile, inodes 
-  
-  c) Implemented in a simple Javascript API (`getFile()`, `putFile()`) 
+
+  b) Uses familiar filesystem concepts such as getFile, putFile, inodes
+
+  c) Implemented in a simple Javascript API (`getFile()`, `putFile()`)
 
 ---
 
@@ -71,7 +71,7 @@ Note:
 <img src="https://blockstack.org/images/visuals/blockstack-tx-diagram.png" width="500">
 
 
-Note: 
+Note:
 
 1) Discovery (BNS)
 
@@ -86,9 +86,9 @@ Note:
 <section data-background="#270f34">
 ## Identity - Blockchain ID ##
 
-[Blockstack id](https://blockstack.org/posts/blockchain-identity)
-
 [Onename](https://onename.com)
+
+[Blockchain ID](https://blockstack.org/posts/blockchain-identity)
 
 Note:
 1) Register id via the Blockstack browser or CLI.
@@ -100,7 +100,7 @@ Note:
 ---
 
 <section data-background="#270f34">
-## Virtual Chain ##
+## Virtualchain ##
 
 [Whitepaper](https://blockstack.org/virtualchain_dccl16.pdf)
 
@@ -111,7 +111,7 @@ Note:
 1) Virtualchain is a logical layer for multiplexing multiple fork-consistent state transition journals on a blockchain.
 
   a) Blockchains can fail (Namecoin)
-  
+
   b) Betting on any one blockchain this early in the evolution of the space is a losing bet
 
   c) Application's journal can be forked and corrupted by the underlying blockchain
@@ -127,9 +127,9 @@ Note:
 
 Note:
 
-1) Using BNS users point their domain name to a storage backend. 
+1) Using BNS users point their domain name to a storage backend.
 
-2) Access is granted to applications through the identity system. 
+2) Access is granted to applications through the identity system.
 
 3) Storage backend currently Dropbox. Adding support for S3 compatible backends (AWS, Google, Azure, Minio)
 

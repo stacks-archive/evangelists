@@ -15,43 +15,18 @@ Note:
 ## What are we learning today? ##
 
 * How to build a Single Page Javascript application with Blockstack
-* How to manage authentication using a Blockstack ID
+* How to manage authentication using a Blockchain ID
 * How to use Blockstack Storage (Gaia) as an application backend.
 
 Note:
 
 ---
 
-
 ### Requirements ###
 
 * Installed and running Blockstack Browser
 * Have a registered Blockstack name in the Browser
 * node.js LTS Version -> v6.11.2
-
-Note:
-
----
-
-## Sign-In - Code ##
-
-```js
-if (blockstack.isUserSignedIn()) {
-  this.user = blockstack.loadUserData().profile
-} else if (blockstack.isSignInPending()) {
-  blockstack.handlePendingSignIn()
-  .then((userData) => {
-    window.location = window.location.origin
-  })
-}
-
-...
-
-signIn () {
-  const blockstack = this.blockstack
-  blockstack.redirectToSignIn()
-}
-```
 
 Note:
 
@@ -102,23 +77,24 @@ Note:
 
 ---
 
-## Storage - Code ##
+## Sign-In - Code ##
 
 ```js
-blockstack.getFile(STORAGE_FILE)
-.then((todosText) => {
-  var todos = JSON.parse(todosText || '[]')
-  todos.forEach(function (todo, index) {
-    todo.id = index
+if (blockstack.isUserSignedIn()) {
+  this.user = blockstack.loadUserData().profile
+} else if (blockstack.isSignInPending()) {
+  blockstack.handlePendingSignIn()
+  .then((userData) => {
+    window.location = window.location.origin
   })
-  this.uidCount = todos.length
-  this.todos = todos
-})
+}
+
 ...
-handler: function (todos) {
+
+signIn () {
   const blockstack = this.blockstack
-  return blockstack.putFile(STORAGE_FILE, JSON.stringify(todos))
-},
+  blockstack.redirectToSignIn()
+}
 ```
 
 Note:
@@ -156,6 +132,29 @@ Note:
   }
 ]
 ```
+
+---
+
+## Storage - Code ##
+
+```js
+blockstack.getFile(STORAGE_FILE)
+.then((todosText) => {
+  var todos = JSON.parse(todosText || '[]')
+  todos.forEach(function (todo, index) {
+    todo.id = index
+  })
+  this.uidCount = todos.length
+  this.todos = todos
+})
+...
+handler: function (todos) {
+  const blockstack = this.blockstack
+  return blockstack.putFile(STORAGE_FILE, JSON.stringify(todos))
+},
+```
+
+Note:
 
 ---
 
