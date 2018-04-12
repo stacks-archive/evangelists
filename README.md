@@ -31,3 +31,38 @@ To request some content for a Meetup you will be hosting, or to help clear up an
     * [Tutorials](https://blockstack.org/tutorials)
     * [Blockstack Core Tech Docs](https://github.com/blockstack/blockstack-core/tree/master/docs)
     * [Blockstack Browser Tech Docs](https://github.com/blockstack/blockstack-browser/tree/master/docs)
+
+
+
+### How Do I Become a World Class Blockstack Evangelist?
+
+#### What is a Blockstack evangelist?
+A Blockstack evangelist is:
+ - Someone who is passionate about the Blockstack platform and ideals
+ - Willing to share with fellow evangelists
+ - Part product marketer, part developer/tinkerer, maybe both!
+
+#### What are the product areas that I should learn to become a Blockstack expert?
+
+The three pillars of the Blockstack Stack could be described as follows:
+
+1. Decentralized Identity
+2. Decentralized Storage [(Gaia)](https://github.com/blockstack/gaia)
+3. Discovery/Replication [(Atlas)](https://github.com/blockstack/blockstack-core/blob/master/docs/atlas_network.md)
+
+([whitepaper link](https://blockstack.org/whitepaper.pdf))
+
+Below are other areas of knowledge that will be helpful, with some component pieces identified. If there is more you would like to see below [please open an issue or PR](https://github.com/blockstack/evangelists/issues/new)!
+
+**System Architecture** (note: this will be changing in coming releases)
+1. Component Architecture ([forum link](https://forum.blockstack.org/t/component-architecture/1417)) & Blockstack layers ([whitepaper](https://blockstack.org/whitepaper.pdf))
+2. Blockstack Core API ([api docs](https://core.blockstack.org/))
+4. `blockstack-core` (runs the atlas network) vs `blockstack api` (provides a REST interface)
+5. Virtualchain ([repo](https://github.com/blockstack/virtualchain/))
+6. Blockstack Browser ([repo](http://github.com/blockstack/blockstack-browser/))
+7. Gaia Hubs ([repo](https://github.com/blockstack/gaia/tree/master/hub))
+
+**Decentralized Storage (Gaia)**
+1. Basics - Storage Layers, basic file operations ([blockstack.js](http://blockstack.github.io/blockstack.js/))
+2. Multi-Reader data access ([Open an issue/PR to add this!](https://github.com/blockstack/evangelists/issues/new))
+4. Driver API ([repo](https://github.com/blockstack/gaia/tree/master/hub/src/server/drivers))
