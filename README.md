@@ -1,6 +1,6 @@
 # Blockstack Evangelists
 
-This repo is a collection of [`reveal.js`](http://lab.hakim.se/reveal-js/#/) slide decks for anyone presenting about Blockstack to technical audiences.
+This repo is a collection of [`reveal.js`](http://lab.hakim.se/reveal-js/#/) slide decks for anyone presenting about Blockstack to technical audiences. It also includes "Blockstack for Beginners", a longer PowerPoint good for an introduction to Blockstack.
 
 To run the slides do the following:
 
