@@ -25,7 +25,7 @@ To request some content for a Meetup you will be hosting, or to help clear up an
 - This would help me...
   * An explanation of how this content would help you
 - Resources for getting started...
-  * Any current documentation or pages that exist on the topic. Search _at least_ this spots:
+  * Any current documentation or pages that exist on the topic. Search _at least_ this spot:
     * [All docs on Blockstack](https://docs.blockstack.org/)
 
 ### How Do I Become a World Class Blockstack Evangelist?
