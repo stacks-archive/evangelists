@@ -25,14 +25,8 @@ To request some content for a Meetup you will be hosting, or to help clear up an
 - This would help me...
   * An explanation of how this content would help you
 - Resources for getting started...
-  * Any current documentation or pages that exist on the topic. Check _at least_ these spots:
-    * [Developer Getting Started](https://blockstack.org/devs)
-    * [Blockstack Forum](https://forum.blockstack.org/)
-    * [Tutorials](https://blockstack.org/tutorials)
-    * [Blockstack Core Tech Docs](https://github.com/blockstack/blockstack-core/tree/master/docs)
-    * [Blockstack Browser Tech Docs](https://github.com/blockstack/blockstack-browser/tree/master/docs)
-
-
+  * Any current documentation or pages that exist on the topic. Search _at least_ this spot:
+    * [All docs on Blockstack](https://docs.blockstack.org/)
 
 ### How Do I Become a World Class Blockstack Evangelist?
 
@@ -48,7 +42,7 @@ The three pillars of the Blockstack Stack could be described as follows:
 
 1. Decentralized Identity
 2. Decentralized Storage [(Gaia)](https://github.com/blockstack/gaia)
-3. Discovery/Replication [(Atlas)](https://github.com/blockstack/blockstack-core/blob/master/docs/atlas_network.md)
+3. Discovery/Replication [(Atlas)](https://docs.blockstack.org/core/atlas/overview.html)
 
 ([whitepaper link](https://blockstack.org/whitepaper.pdf))
 
