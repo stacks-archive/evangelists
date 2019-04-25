@@ -1,3 +1,5 @@
+# THIS REPO IS NOT USED ANYMORE. USE https://forum.blockstack.org/t/evangelist-toolkit/4969 INSTEAD 
+
 # Blockstack Evangelists
 
 This repo is a collection of presentations and explainers for anyone presenting about Blockstack to technical audiences, as well as non-technical audiences. Also included are presentations that have been given at various conferences and events.
